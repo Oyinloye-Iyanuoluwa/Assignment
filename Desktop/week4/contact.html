@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Page</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+  .container {
+    width: 50%;
+    height: 90vh;
+    margin: auto;
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .hey {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  button {
+    padding: 5px;
+  }
+
+  a {
+    text-decoration: underline;
+    color: blue;
+  }
+
+  h3,
+  p,
+  label,
+  textarea {
+    color: black;
+  }
+</style>
+
+<body>
+  <div class="container">
+    <h3>Let's Talk.</h3>
+    <hr>
+    <br>
+    <br>
+    <p>Get in touch via the form below, or by emailing <a href="#">oyinloyeiyanuoluwa@gmail.com</a></p>
+    <br>
+    <br>
+    <form action="">
+      <label for="Name">Name:</label>
+      <input type="text" placeholder="Enter your Name" name="Name" id="Name" required><br><br>
+
+      <label for="Email">Email:</label>
+      <input type="text" placeholder="Enter your Email address" name="Email" id="Email" required><br><br>
+
+      <label for="Message">Message:</label><br>
+      <textarea name="Message" id="Msg" cols="30" rows="10">Enter Message Here</textarea><br><br>
+
+      <div class="hey">
+        <button type="submit" class="btn">submit</button><br><br>
+        <a href="./index.html">Home</a>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
